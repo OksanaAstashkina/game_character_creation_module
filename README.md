@@ -16,7 +16,7 @@
 
 __Клонируем себе на компьютер репозиторий__: 
 ```
-git clone git@github.com:OksanaAstashkina/character_creation_module.git
+git clone git@github.com:OksanaAstashkina/game_character_creation_module.git
 ```
 
 __Переходим в директорию с клонированным репозиторием__:
@@ -31,7 +31,7 @@ python -m venv venv (python3 -m venv venv)
 
 __Активируем виртуальное окружение__:
 ```
-venv\Scripts\activate.bat (для Linux и MacOS: source venv/bin/activate)
+source venv/Scripts/activate (для Linux и MacOS: source venv/bin/activate)
 ```
 
 __Установаем зависимости__:
