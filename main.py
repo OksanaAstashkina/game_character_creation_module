@@ -1,6 +1,6 @@
 from random import randint
 
-from graphic_arts.start_game_banner import run_screensaver
+from start_game_banner import run_screensaver
 
 # Стандартное значение урона.
 DEFAULT_ATTACK = 5
