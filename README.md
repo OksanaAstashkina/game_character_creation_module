@@ -49,4 +49,4 @@ python main.py
 Оксана Асташкина - [GitHub](https://github.com/OksanaAstashkina)
 
 ### *Дата создания*
-Декабрь, 2022 г.
+Декабрь, 2022
