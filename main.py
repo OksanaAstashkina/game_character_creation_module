@@ -99,9 +99,9 @@ def start_training(character):
     Принимает на вход имя и класс персонажа.
     Возвращает сообщения о результатах цикла тренировки персонажа.
     """
-    commands = {'attack': character.attack(),
-                'defence': character.defence(),
-                'special': character.special()}
+    commands = {'attack': character.attack,
+                'defence': character.defence,
+                'special': character.special}
     print('Потренируйся управлять своими навыками.')
     print('Введи одну из команд: attack — чтобы атаковать противника, '
           'defence — чтобы блокировать атаку противника или '
@@ -111,7 +111,7 @@ def start_training(character):
     while cmd != 'skip':
         cmd = input('Введи команду: ')
         if cmd in commands:
-            print(commands[cmd])
+            print(commands[cmd]())
     return 'Тренировка окончена.'
 
 
